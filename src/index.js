@@ -15,10 +15,12 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Chat from "./pages/chat/Chat";
 import Admin from "./pages/userAdmin/Admin";
+import CssBaseline from '@mui/material/CssBaseline';
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme = {theme}>
+      <CssBaseline />
       <BrowserRouter>
         <Header />
         <Routes>

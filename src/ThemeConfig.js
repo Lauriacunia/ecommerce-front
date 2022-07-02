@@ -10,6 +10,26 @@ const theme = createTheme({
       main: green[500],
     },
   },
+  typography: {
+    fontFamily: 'Roboto, sans-serif',
+  },
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          backgroundColor: "#e9edee",
+          margin: 0,
+          padding: 0,
+          fontFamily: 'Roboto, sans-serif',
+          color: "#606060",
+        },
+        img: {
+          width: "100%",
+        }
+      }
+    }
+  }
+  
 });
 
 
