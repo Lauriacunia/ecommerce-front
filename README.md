@@ -49,3 +49,11 @@ You may also see any lint errors in the console.
 # Swipper
 
 - https://swiperjs.com/react
+
+# Socket.io
+
+- npm install socket.io-client
+
+# Faker.js
+
+- npm install @faker-js/faker --save-dev
