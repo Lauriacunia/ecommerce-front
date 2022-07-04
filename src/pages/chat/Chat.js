@@ -90,18 +90,18 @@ const Chat = () => {
         mensajes: [mensajeSchema]
         });
 
-    const denormalizerChat = (chat) => {
-        console.log('chat', chat);
-        // desnormalizar chat-> esto no esta funcionando... no se porque
-        // opciones que probe:
-        // const denormalizedChat = denormalize(chat, chatSchema, chat.entities);
-        // const denormalizedChat = denormalize(chat.result, chatSchema, chat.entities.chats);
-        // const denormalizedChat = denormalize(chat.result, chatSchema, chat.entities.chats[30950]);
-        // const denormalizedChat = denormalize(chat.result, chatSchema, chat.entities);
-         const denormalizedChat = denormalize(chat.result, chatSchema, chat.entities);
-        //  console.log('denormalizedChat', denormalizedChat);
-        return denormalizedChat;
-    }
+    // const denormalizerChat = (chat) => {
+    //     console.log('chat', chat);
+    //     // desnormalizar chat-> esto no esta funcionando... no se porque
+    //     // opciones que probe:
+    //     // const denormalizedChat = denormalize(chat, chatSchema, chat.entities);
+    //     // const denormalizedChat = denormalize(chat.result, chatSchema, chat.entities.chats);
+    //     // const denormalizedChat = denormalize(chat.result, chatSchema, chat.entities.chats[30950]);
+    //     // const denormalizedChat = denormalize(chat.result, chatSchema, chat.entities);
+    //     // const denormalizedChat = denormalize(chat.result, chatSchema, chat.entities);
+    //     //  console.log('denormalizedChat', denormalizedChat);
+    //    // return denormalizedChat;
+    // }
 
     return (
         <>
