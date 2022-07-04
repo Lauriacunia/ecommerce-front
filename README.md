@@ -57,3 +57,8 @@ You may also see any lint errors in the console.
 # Faker.js
 
 - npm install @faker-js/faker --save-dev
+
+# Normalizr
+
+- npm i normalizr
+- https://github.com/paularmstrong/normalizr/blob/master/docs/api.md
